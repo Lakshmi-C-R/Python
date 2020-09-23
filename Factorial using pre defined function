@@ -1,0 +1,4 @@
+import math
+n=int(input("Enter n:"))
+f=math.factorial(n)
+print("Factorial of",n,"is",f)
