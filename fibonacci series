@@ -1,0 +1,10 @@
+n=int(input("Enter n:"))
+f0=0
+f1=1
+print(f0)
+print(f1)
+for i in range(0,n):
+    fib=f0+f1
+    f0=f1
+    f1=fib
+    print(fib)
